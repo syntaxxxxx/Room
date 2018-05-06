@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/size"
+    android:gravity="center"
+    tools:context="com.example.idn.roomdatabase.Fragments.CreateUser">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/edt_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="ID User"
+        android:inputType="numberDecimal"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size"
+        android:gravity="center"
+        android:hint="Name User"
+        android:inputType="textAutoComplete"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size"
+        android:gravity="center"
+        android:hint="Email User"
+        android:inputType="textEmailAddress"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size"
+        android:text="@string/save" />
+
+</LinearLayout>
